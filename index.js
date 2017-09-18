@@ -1,3 +1,3 @@
 module.exports = function(homebridge) {
-    require('./XiaoMiAcPartner')(homebridge);
+    require('./XiaoMiAcPartner_NEW')(homebridge);
   }

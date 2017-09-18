@@ -8,6 +8,9 @@
 
 感谢[takatost](https://github.com/takatost/homebridge-mi-ac-partner)，[miio](https://github.com/aholstenson/miio)，[YinHangCode](https://github.com/YinHangCode/homebridge-mi-aqara)和所有测试开发人员提供支持。
 
+[Homeassistant版本](https://github.com/mac-zhou/homeassistant-mi-acpartner)，感谢mac-zhou
+
+
 **注意：我没有很多时间去获取空调伴侣的预设信息，如果你手上有我没有提供的空调伴侣预设码，请前往[issues](https://github.com/LASER-Yi/homebridge-mi-acpartner/issues)或者直接发送邮件到ly0007@yeah.net提供。我需要空调30到17度制冷制热模式，各个模式任意温度和各种风力下的空调码。**
 
 **注意：此插件在0.2.2版本后移除了Miio自动查找的功能，如果插件无法使用，请在"config.json"中添加你要控制的空调伴侣的IP地址。此插件在0.2.6版本后就开始使用自动查找预设功能，你可以在之后的版本放心移除"model"和"preset_no"字段。**

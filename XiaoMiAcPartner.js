@@ -11,7 +11,7 @@ module.exports = function(homebridge) {
 
 function XiaoMiAcPartner(log, config) {
     if(null == config) {
-        this.log.error('[XiaoMiAcPartner][WARN] Cannot find config');
+        this.log.error('[XiaoMiAcPartner][ERROR] Cannot find config');
         return;
     }
 
